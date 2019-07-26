@@ -55,7 +55,7 @@ class Site5c5a_Spider(object):
         self.headers = {'User-Agent':self.user_agent_list[random.randint(0,len(self.user_agent_list)-1)]}
         self.s = requests.Session()
         self.url_first_page = "https://www.5c5a.com/"
-        self.API = "http://api.xdaili.cn/xdaili-api//greatRecharge/getGreatIp?spiderId=3c44943c2dfa4a80b709090f6e4f7f9f&orderno=YZ2019313213eeDYdo&returnType=2&count=1"
+        self.API = ""
         
         
     def video_url_writer(self,q):
